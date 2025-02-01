@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Judul PKL</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Generator Judul Laporan PKL By Driyan 😼</h1>
+
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_w51pcehl.json" background="transparent" speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+
+        <form id="judulForm">
+            <label>Pekerjaanmu di tempat PKL:</label>
+            <input type="text" id="pekerjaan" placeholder="Contoh: jaga gudang, rakit PC">
+
+            <label>Divisi tempat kamu PKL:</label>
+            <input type="text" id="divisi" placeholder="Contoh: Data Support, Outbound Call">
+
+            <label>PT atau Nama Toko tempat PKL:</label>
+            <input type="text" id="perusahaan" placeholder="Contoh: PLN ICON PLUS, KOPERUMNAS">
+
+            <label>Jabarkan kerjaanmu secara detail:</label>
+            <textarea id="deskripsi" placeholder="Contoh: Gw jaga gudang, ngitungin barang yang masuk..."></textarea>
+
+            <label>Tingkat Keprofesionalitasan:</label>
+            <select id="profesionalitas">
+                <option value="1">1 - Sederhana</option>
+                <option value="5">5 - Menengah</option>
+                <option value="10">10 - Sulit</option>
+            </select>
+
+            <p class="desc">🔹 Pilih 1 biar ga ribet, 10 kalau mau bikin guru pusing!</p>
+
+            <label>Tingkat Istilah Ilmiah:</label>
+            <select id="istilah">
+                <option value="0">0 - Ga ada istilah ilmiah</option>
+                <option value="1">1 - Masih bisa dipahami</option>
+                <option value="2">2 - Super kompleks</option>
+            </select>
+
+            <p class="desc">🔹 0 buat simpel, 2 biar keliatan keren 😆</p>
+
+            <button type="submit">🔍 Generate Judul</button>
+        </form>
+    </div>
+
+    <div id="hasilContainer" class="hasil hidden">
+        <h2 id="load" style="text-align: center;">Loading...</h2>
+        <p id="hasilJudul"></p> <!-- Hasil judul ditampilkan di sini -->
+    </div>
+
+    <!-- Pop-up overlay -->
+    <div id="overlay" class="overlay hidden"></div>
+    <div id="popup" class="popup hidden">
+        <div id="popupContent">Loading...</div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
