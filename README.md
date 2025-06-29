@@ -1,7 +1,7 @@
 # 📦 Zimbra Backup Script Versions
 
 
-## ✅ backup_zimbra_v1 (Driyan).sh
+## ✅ zimbra-backup-restore-v1.sh (by Driyan)
 
 # Fitur:
 
@@ -15,7 +15,7 @@
 
 ---
 
-## ✅ backup_zimbra_v2 (Fauzi).sh
+## ✅ zimbra-backup-restore-v2.sh (by Fauzi)
 
 # Fitur:
 
@@ -35,7 +35,7 @@
 
 ---
 
-## ✅ backup_zimbra_v2.1 (Driyan).sh
+## ✅ zimbra-backup-restore-v3.sh (by Driyan)
 
 # Fitur:
 
