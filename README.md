@@ -1,18 +1,9 @@
-\# 📦 Zimbra Backup Script Versions
+# 📦 Zimbra Backup Script Versions
 
 
+## ✅ backup_zimbra_v1 (Driyan).sh
 
-Dokumentasi versi skrip shell untuk backup dan restore akun pengguna Zimbra.
-
-
-
----
-
-
-
-\## ✅ `backup\_zimbra\_v1 (Driyan).sh`
-
-\# Fitur:
+# Fitur:
 
 ✔ Memiliki dua opsi utama: backup dan restore
 
@@ -24,9 +15,9 @@ Dokumentasi versi skrip shell untuk backup dan restore akun pengguna Zimbra.
 
 ---
 
-\## ✅ backup\_zimbra\_v2 (Fauzi).sh
+## ✅ backup_zimbra_v2 (Fauzi).sh
 
-\# Fitur:
+# Fitur:
 
 ✔ Memiliki dua opsi utama: backup dan restore
 
@@ -36,7 +27,7 @@ Dokumentasi versi skrip shell untuk backup dan restore akun pengguna Zimbra.
 
 
 
-\# Tambahan:
+# Tambahan:
 
 ➕ Mendukung backup dan restore Distribution List (DL)
 
@@ -44,9 +35,9 @@ Dokumentasi versi skrip shell untuk backup dan restore akun pengguna Zimbra.
 
 ---
 
-\## ✅ backup\_zimbra\_v2.1 (Driyan).sh
+## ✅ backup_zimbra_v2.1 (Driyan).sh
 
-\# Fitur:
+# Fitur:
 
 ✔ Memiliki dua opsi utama: backup dan restore
 
@@ -56,15 +47,11 @@ Dokumentasi versi skrip shell untuk backup dan restore akun pengguna Zimbra.
 
 
 
-\# Peningkatan:
+# Peningkatan:
 
-➕ Validasi direktori backup dan isi sebelum restore
+➕ Validasi direktori backup dan isi direktori sebelum restore
 
-➕ Melewati akun yang sudah ada saat restore
+➕ Memperbaiki error existing account
 
-➕ Backup akun dijalankan paralel (parallel processing)
-
-
-
-
+➕ parallel processing
 
